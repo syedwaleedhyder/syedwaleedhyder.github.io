@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Syed Waleed Hyder">
+  <title>Syed Waleed Hyder</title>
+  <link rel="icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🌐</text></svg>">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <main>
+    <header class="intro">
+      <div>
+        <h1>Syed Waleed Hyder</h1>
+        <p>I am a machine learning engineer working on LLM agents, vision-language models, and computer vision. I currently build production AI agents at <a href="https://www.idprivacy.ai/">ID Privacy AI</a> and work on vision-language models for zero-shot image annotation and segmentation at <a href="https://www.tthree.org/">T3</a>.</p>
+        <p>Previously, I was a research engineer at <a href="https://retrocausal.ai/">Retrocausal</a>, working on fine-grained human activity segmentation, and a machine learning engineer at <a href="https://turon.ai/">Turon AI</a> and <a href="https://omno.ai/">OMNO AI</a>, building RAG systems, intent classifiers, and video analytics pipelines.</p>
+        <nav class="links">
+          <a href="mailto:syedwaleedhyder@gmail.com">Email</a>
+          <a href="data/CV_SyedWaleedHyder_261007.pdf">CV</a>
+          <a href="https://www.linkedin.com/in/syedwaleedhyder/">LinkedIn</a>
+          <a href="https://scholar.google.com/citations?user=AOfhMd4AAAAJ&amp;hl=en">Google Scholar</a>
+          <a href="https://twitter.com/syedwaleedhyder">Twitter</a>
+          <a href="https://github.com/syedwaleedhyder/">GitHub</a>
+        </nav>
+      </div>
+      <a href="images/SyedWaleedHyder.jpeg" class="photo">
+        <img src="images/SyedWaleedHyder.jpeg" alt="Photo of Syed Waleed Hyder">
+      </a>
+    </header>
+
+    <section>
+      <h2>Experience</h2>
+      <p>I'm interested in computer vision, machine learning, and image processing.</p>
+
+      <article class="entry">
+        <img src="images/idprivacy_logo.png" alt="ID Privacy AI logo">
+        <div>
+          <h3><a href="https://www.idprivacy.ai/">ID Privacy AI</a> <span class="place">Remote</span></h3>
+          <p class="role">Graduate Capstone Project, AI Agent Engineer, Sep 2026 – Present</p>
+          <p><em>LLM agent engineering and optimization.</em> Engineered and iteratively optimized the prompt architecture, conversation workflows, guardrails, and tool-calling behavior of production AI service agents for automotive dealerships, increasing service appointment booking completion from 40% to 80% of production calls with booking intent and reducing hallucinations and incorrect tool usage from 30% to 5% of calls.</p>
+          <p><em>LLM evaluation and regression testing.</em> Built and maintained a golden dataset of 100 multi-turn conversations covering service workflows, edge cases, state transitions, and tool-calling behavior; ran regression evaluations across agent changes to validate improvements and prevent degradation of existing capabilities.</p>
+        </div>
+      </article>
+
+      <article class="entry">
+        <img src="images/t3-square-black.svg" alt="T3 logo">
+        <div>
+          <h3><a href="https://www.tthree.org/">T3, Wichita State University</a> <span class="place">Wichita, Kansas</span></h3>
+          <p class="role">Graduate Assistant, Machine Learning, Jul 2025 – Present</p>
+          <p><em>Vizling: zero-shot image segmentation.</em> Developed and evaluated a VLM-based zero-shot image annotation tool. Used Qwen3.5 for comprehensive scene understanding and structured annotation parsing, Google OWL-ViT for text-driven object detection, and Google PaliGemma for multi-object segmentation, iteratively validating outputs for accuracy before hand-off.</p>
+          <p><em>Vizling: fine-tuning a vision-language model.</em> Fine-tuned Qwen3.5-4B using LoRA on a custom image-to-JSON instruction dataset, collapsing the two-stage scene understanding and structured parsing pipeline into a single, end-to-end process; verified JSON schema conformance and output correctness across test cases.</p>
+        </div>
+      </article>
+
+      <article class="entry">
+        <img src="images/turon_ai_logo.jpeg" alt="Turon AI logo">
+        <div>
+          <h3><a href="https://turon.ai/">Turon AI</a> <span class="place">Remote</span></h3>
+          <p class="role">Machine Learning Engineer, Sep 2023 – Dec 2024</p>
+          <p><em>Agentic RAG system for finance compliance intelligence.</em> Built and tested an AI-based compliance assistant using agentic retrieval-augmented generation (RAG) to identify and summarize finance regulations for new financial products. Developed a multi-step reasoning agent for semantic document search, compliance categorization, and citation-based summaries, validating outputs against source documents for accuracy.</p>
+          <p><em>Few-shot user intent classification.</em> Built, evaluated, and deployed a multi-label intent classifier for a debt collection product using few-shot learning (<a href="https://github.com/stanfordnlp/dspy">DSPy</a> + GPT-4, F1 = 0.85; RoBERTa + SetFit, F1 = 0.87), using cross-validation to benchmark and select the best-performing approach before shipping.</p>
+        </div>
+      </article>
+
+      <article class="entry">
+        <img src="images/Retrocausal_Logo.jfif" alt="Retrocausal logo">
+        <div>
+          <h3><a href="https://retrocausal.ai/">Retrocausal</a> <span class="place">Redmond, Washington (Remote)</span></h3>
+          <p class="role">Research Engineer, Jul 2022 – Sep 2023</p>
+          <p><em>Retroactivity: video understanding module.</em> Worked on supervised and unsupervised fine-grained human activity segmentation at video and dataset levels using both frames and skeletons (2D/3D pose). Implemented and tested an algorithm for unsupervised action segmentation by detecting action boundaries, which was validated and deployed on the iPad version of Retroactivity.</p>
+        </div>
+      </article>
+
+      <article class="entry">
+        <img src="images/omnoai.jfif" alt="OMNO AI logo">
+        <div>
+          <h3><a href="https://omno.ai/">OMNO AI</a> <span class="place">Lahore, Pakistan</span></h3>
+          <p class="role">Machine Learning Engineer, Sep 2021 – Jul 2022</p>
+          <p><em>SportsEye. AI-powered football analytics platform.</em> Track every movement on the pitch using broadcast streams to run our analysis, without any extra hardware to be installed on stadiums. Player and Ball Detection using Single Stage Detectors. Player tracking and re-identification using deep sort. Broadcast view classification using custom CNNs. Field Line Masking using Pix2Pix GANs. Camera Pose estimation with classical Homography estimation. Timer localisation using EAST detector and recognition using OCR based methods.</p>
+          <p><em>RetailWiz. Targeted Ad platform for retail stores.</em> Designed and implemented the AI pipeline for smart gondola capable of person tracking and profiling gender, age and emotions from the facial crop and use it for targeted advertisement. Optimized the pipeline for memory on Jetson Nano by writing a custom Python wrapper for TensorRT C++ (2 YOLOv5 detectors, 2 binary classifiers).</p>
+          <p><em>Adlytic. Audience Analytics platform for retail stores.</em> Implemented the pipeline capable of footfall counting with age and gender classification, area-wise heatmap generation and dwell time. Developed APIs to help KPI dashboard consume the analytics. This system is deployed using docker in 50+ different retail stores and analytics are above 90% accurate. (YOLOv5, DeepSORT, BYTETrack).</p>
+        </div>
+      </article>
+
+      <article class="entry">
+        <img src="images/systems.jfif" alt="Systems Limited logo">
+        <div>
+          <h3><a href="https://www.systemsltd.com/">Systems Limited</a> <span class="place">Karachi, Pakistan</span></h3>
+          <p class="role">Machine Learning Consultant, Aug 2020 – Aug 2021</p>
+          <p><em>Regeneron Pharmaceuticals. Platform for data analysis of Patient Wearable Devices.</em> Developed a platform using Apache Nifi for data ingestion, PySpark for ETL and post-ingestion, Hive and AWS Redshift for analytics, and AWS S3 for cloud storage. Performed gait analysis using machine learning (ML) algorithms on time series-data from sensors of Moticon device. Classified the human activity using ML algorithms on time-series data from accelerometer of Actigraph device, cross-checking model predictions against ground truth for quality control.</p>
+        </div>
+      </article>
+
+      <article class="entry">
+        <img src="images/tum_sipeo_dlr.jpg" alt="TUM SiPEO and DLR logos">
+        <div>
+          <h3><a href="https://www.asg.ed.tum.de/en/sipeo/home/">Data Science in Earth Observation, Technical University of Munich</a> <span class="place">Munich, Germany</span></h3>
+          <p class="role">Research Intern, Summer 2019</p>
+          <p><em>Slum mapping in satellite imagery using deep learning.</em> Collected the image data on slums for Karachi and Islamabad, filtered the data. Used the Fully Convolutional Networks (FCN) to segment the slums from non-slums. Using loss functions to characterize the class imbalance since in majority of slum datasets the foreground pixels are dominant. Implemented transfer learning and adversarial domain adaptation to align embeddings of the Karachi and Mumbai slum datasets. An extension of this work is my bachelor's thesis (final year project).</p>
+        </div>
+      </article>
+    </section>
+
+    <section>
+      <h2>Publication</h2>
+      <article class="pub">
+        <h3><a href="https://arxiv.org/pdf/2309.06462.pdf">Action Segmentation Using 2D Skeleton Heatmaps</a></h3>
+        <p class="role">ICRA 2024</p>
+        <p>A novel 2D skeleton-based action segmentation method using 2D skeleton heatmaps and Temporal Convolutional Networks, achieving comparable or superior results and robustness in fine-grained human activity recognition. This work is the first to utilize 2D skeleton heatmap inputs and explore 2D skeleton+RGB fusion for action segmentation.</p>
+      </article>
+    </section>
+
+    <section>
+      <h2>Education</h2>
+      <div class="edu">
+        <h3>Wichita State University <span class="place">Wichita, Kansas</span></h3>
+        <p class="role">Master of Science in Computer Science, GPA 4.0/4.0, Jan 2025 – Dec 2026</p>
+      </div>
+      <div class="edu">
+        <h3>National University of Sciences and Technology (NUST) <span class="place">Islamabad, Pakistan</span></h3>
+        <p class="role">Bachelor of Engineering in Software Engineering, GPA 3.67/4.0, Sep 2016 – May 2020</p>
+      </div>
+    </section>
+  </main>
+</body>
+</html>
